@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.4
 
 RUN apk --update add nginx php5-fpm && \
     mkdir -p /var/log/nginx && \
